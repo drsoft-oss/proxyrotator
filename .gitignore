@@ -27,6 +27,7 @@ dist/
 .vscode/
 *.swp
 *.swo
+.history/
 
 # Node (semantic-release tooling)
 node_modules/
