@@ -31,6 +31,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
 
+      - name: Clean up dirty files
+        run: git checkout package.json package-lock.json
+
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
