@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/romeomihailus/proxyrotator/internal/pool"
+	"github.com/drsoft-oss/proxyrotator/internal/pool"
 )
 
 // Config holds all rotation thresholds.

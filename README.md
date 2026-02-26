@@ -38,7 +38,7 @@ Instead of hard-coding a single proxy and hoping it keeps working, proxyrotator:
 ### Download a pre-built binary (recommended)
 
 Download the latest release for your platform from the
-[Releases page](https://github.com/romeomihailus/proxyrotator/releases/latest).
+[Releases page](https://github.com/drsoft-oss/proxyrotator/releases/latest).
 
 | Platform | File |
 |---|---|
@@ -51,7 +51,7 @@ Download the latest release for your platform from the
 **Linux / macOS one-liner:**
 
 ```bash
-curl -sSL https://github.com/romeomihailus/proxyrotator/releases/latest/download/proxyrotator_$(uname -s | tr '[:upper:]' '[:lower:]')_$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/').tar.gz \
+curl -sSL https://github.com/drsoft-oss/proxyrotator/releases/latest/download/proxyrotator_$(uname -s | tr '[:upper:]' '[:lower:]')_$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/').tar.gz \
   | tar -xz proxyrotator && sudo mv proxyrotator /usr/local/bin/
 ```
 
@@ -60,7 +60,7 @@ curl -sSL https://github.com/romeomihailus/proxyrotator/releases/latest/download
 Requires Go 1.21+:
 
 ```bash
-git clone https://github.com/romeomihailus/proxyrotator
+git clone https://github.com/drsoft-oss/proxyrotator
 cd proxyrotator
 go build -o proxyrotator .
 ```
@@ -83,7 +83,7 @@ socks5://user:pass@9.10.11.12:1080
 proxyrotator --file proxies.txt
 ```
 
-**3. Point your application at `http://localhost:8080`.**
+**3. Point your application to use the rotator proxy server address at `http://localhost:8080`.**
 
 That's it. The tool will print the proxy address and API URL on startup.
 

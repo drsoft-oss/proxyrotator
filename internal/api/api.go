@@ -15,8 +15,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/romeomihailus/proxyrotator/internal/pool"
-	"github.com/romeomihailus/proxyrotator/internal/rotator"
+	"github.com/drsoft-oss/proxyrotator/internal/pool"
+	"github.com/drsoft-oss/proxyrotator/internal/rotator"
 )
 
 // Server is the API HTTP server.

@@ -20,8 +20,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/romeomihailus/proxyrotator/internal/rotator"
-	"github.com/romeomihailus/proxyrotator/internal/upstream"
+	"github.com/drsoft-oss/proxyrotator/internal/rotator"
+	"github.com/drsoft-oss/proxyrotator/internal/upstream"
 )
 
 // Config holds proxy server settings.

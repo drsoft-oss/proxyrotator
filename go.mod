@@ -1,4 +1,4 @@
-module github.com/romeomihailus/proxyrotator
+module github.com/drsoft-oss/proxyrotator
 
 go 1.21
 

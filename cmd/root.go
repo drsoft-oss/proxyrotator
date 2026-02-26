@@ -12,11 +12,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/romeomihailus/proxyrotator/internal/api"
-	"github.com/romeomihailus/proxyrotator/internal/monitor"
-	"github.com/romeomihailus/proxyrotator/internal/pool"
-	"github.com/romeomihailus/proxyrotator/internal/rotator"
-	"github.com/romeomihailus/proxyrotator/internal/server"
+	"github.com/drsoft-oss/proxyrotator/internal/api"
+	"github.com/drsoft-oss/proxyrotator/internal/monitor"
+	"github.com/drsoft-oss/proxyrotator/internal/pool"
+	"github.com/drsoft-oss/proxyrotator/internal/rotator"
+	"github.com/drsoft-oss/proxyrotator/internal/server"
 )
 
 // version is injected at build time via ldflags.

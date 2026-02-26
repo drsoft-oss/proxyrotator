@@ -15,7 +15,7 @@ builds:
       - CGO_ENABLED=0
     ldflags:
       - -s -w
-      - -X github.com/romeomihailus/proxyrotator/cmd.version={{.Version}}
+      - -X github.com/drsoft-oss/proxyrotator/cmd.version={{.Version}}
     goos:
       - linux
       - darwin
@@ -68,7 +68,7 @@ changelog:
 
 release:
   github:
-    owner: romeomihailus
+    owner: drsoft-oss
     name: proxyrotator
   name_template: "v{{.Version}}"
   draft: false

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/romeomihailus/proxyrotator/internal/pool"
+	"github.com/drsoft-oss/proxyrotator/internal/pool"
 )
 
 // makePool creates a pool from a slice of proxy URIs.

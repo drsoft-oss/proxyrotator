@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/romeomihailus/proxyrotator/internal/pool"
-	"github.com/romeomihailus/proxyrotator/internal/upstream"
+	"github.com/drsoft-oss/proxyrotator/internal/pool"
+	"github.com/drsoft-oss/proxyrotator/internal/upstream"
 )
 
 const (
