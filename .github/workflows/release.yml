@@ -31,8 +31,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
 
-      - name: Clean up dirty files
-        run: git checkout package.json package-lock.json
+      - name: Sync Git State
+        run: |
+          # 1. Discard local changes to package files
+          git checkout package.json package-lock.json
+          # 2. Pull the new tag that semantic-release just created
+          git fetch --tags --force
 
       - name: Set up Go
         uses: actions/setup-go@v5
