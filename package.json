@@ -1,7 +1,7 @@
 {
     "name": "proxyrotator",
     "version": "0.0.0-semantic",
-    "description": "Release tooling for proxyrotator.",
+    "description": "Release tooling for proxyrotator",
     "private": true,
     "scripts": {
         "release": "semantic-release"
